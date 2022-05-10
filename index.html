@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS.css">
+  <title>Various Projects</title>
+</head>
+
+<body>
+  <main class="PasswordMain">
+    <h1 class="PassTitle">Generate a random password here!</h1>
+    <div class="containerPassword">
+      <span id='PasswordShow'></span>
+      <div class="PasswordChoosers">
+        <label for="Length">Length?</label>
+        <input type="number" id="Length" min="5" value="10">
+
+        <label for="CapLetter">Capital Letter?</label>
+        <input type="checkbox" id="CapLetter">
+
+        <label for="MinLetter">Minuscule Letter?</label>
+        <input type="checkbox" id="MinLetter">
+        
+
+        <label for="Number">Number?</label>
+        <input type="checkbox" id="Number">
+
+        <label for="Symbols">Symbols?</label>
+        <input type="checkbox" id="Symbols">
+
+
+        <button id="PasswordBtn">Build it!</button>
+      </div>
+    </div>
+  </main>
+
+  <script  src="./script.js"></script>
+</body>
